@@ -1,0 +1,41 @@
+.firstfont{
+  font-family: 'Ultra', serif;
+}
+
+.container{
+  margin-top: 1%;
+}
+
+#person{
+  width: 50%;
+  height: 100%;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myinfo{
+  text-align: center;
+}
+
+.ndfont{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron{
+  width: 100%;
+  height: 70%;
+}
+
+#likelion{
+  margin-top: 130px;
+}
+
+#learnbtn{
+  margin-left: 365px;
+  margin-top: 25px;
+}
+
+#last{
+  text-align: center;
+}

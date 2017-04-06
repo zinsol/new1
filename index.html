@@ -1,41 +1,155 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
   <head>
-  <title></title>
-</head>
-<body>
-  <h1>
-  </h1>
-  <table border="1">
-    <thead>
-      <caption>Info</caption>
-    </thead>
-    <tbody>
-      <tr>
-        <th>name</th>
-        <th>age</th>
-        <th>phone</th>
-        <th>email</th>
-      </tr>
-      <tr>
-        <td>dasol</td>
-        <td>25</td>
-        <td>6627-2219</td>
-        <td>dasol</td>
-      </tr>
-      <tr>
-        <td>dasol</td>
-        <td>25</td>
-        <td colspan="2">6627-2219</td>
-      </tr>      <tr>
-        <td>dasol</td>
-        <td>25</td>
-        <td>6627-2219</td>
-        <td>dasol</td>
-      </tr>
-      </tr>
-    </tbody>
-  </table>
-</body>
+    
+    <title>Dasol Jeong</title>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+      <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  
+  </head> 
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          
+          <h2 class="firstfont">Assignment</h2>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">MY INFO</h3>
+              </div>
+              <div class="panel-body" id="myinfo">
+                
+                <img src="profile.png" id="person"></img>
+                <hr class="one"></hr>
+                <p class="ndfont">LIKELION</p>
+                <p class="ndfont">Dasol Jeong</p>
+                <hr class="one"></hr>
+                
+                <p class="ndfont">Progress</p>
+                
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                  <span class="sr-only">50% Complete (danger)</span>
+                  <p>50%</p>
+                </div>
+              </div>
+                
+                <hr class="one"></hr>
+                
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-success">MYPAGE</button>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                    <div class="btn-group" role="group" aria-label="...">
+                      <button type="button" class="btn btn-warning">LOGOUT</button>
+                    </div>
+                    </div>
+                  </div>
+                  
+              </div>
+              
+            </div>
+          
+                              <div class="panel panel-default">
+                      <div class="panel-body">
+                        <p>2017. 04. 01</p>
+                        <p>Lecture : HTML. CSS & Bootstrap</p>
+                      </div>
+                    </div>
+          
+        </div>
+        
+        <div class="col-md-9">
+          
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Home</a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#">First <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#">Second</a></li>
+                <li><a href="#">Third <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Fourth <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Fifth <span class="sr-only">(current)</span></a></li>
+                
+               
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+          
+        <div class="jumbotron" style="height:350px; padding: 0; background-color: black">
+          <div style="">
+            <img style="width: 100%" src="pnulikelion_logo.png" id ="likelion"/>  
+            <p id="learnbtn"><a class="btn btn-danger btn-lg" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-body">
+            고통받는 여러분을 보면서 보람을 느낍니다. 
+          </div>
+        </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-body">
+            어려운게 당연하니까 질문 많이 하세요!
+          </div>
+        </div>
+        
+        <div class="alert alert-warning" role="alert" id="last">완성해야 집에 갈 수 있어요ㅎㅎㅎ </div>
+        
+      </div>
+    </div>
+   
+   
+  </body>
 </html>
